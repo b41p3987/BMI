@@ -1,0 +1,42 @@
+.content{
+    min-height: calc(100vh - (300px +110px));
+}
+.record{
+    width: 80%;
+    .recordBar{
+         color: #4a4a4a;
+        line-height: 70px;
+        height: 70px;
+        .alertbar{
+            width: 40px;
+            a{
+             padding: 0 6px;
+                display: block;
+                width:20px;
+                height: 100%;
+                background: #fff;          
+                text-decoration: none;
+                color:#424242;
+                font-size: 15px;
+            }
+            a:hover{
+                font-weight:bold;
+                color: red;
+                
+            }
+        }
+        
+        .status ,.bmiRecord,.heightRecord,.weightRecord{
+           p{display: inline;
+               font-size: 18px;} 
+            span{
+                 padding-right: 5px;
+                font-size: 12px;
+            }}              
+        .timeRecord{
+            padding-right: 10px;
+             font-size: 12px;
+        }
+        }
+    
+}

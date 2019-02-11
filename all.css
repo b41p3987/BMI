@@ -1,0 +1,192 @@
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Microsoft JhengHei; }
+
+.bghealth {
+  background: #86D73F; }
+
+.bgthin {
+  background: #31BAF9; }
+
+.bgheavy {
+  background: #FF982D; }
+
+.bgheavy-sm {
+  background: #FF6C03; }
+
+.bgheavy-md {
+  background: #FF6C03; }
+
+.bgheavy-lg {
+  background: #FF1200; }
+
+.color-health {
+  color: #86D73F; }
+
+.color-thin {
+  color: #31BAF9; }
+
+.color-heavy {
+  color: #FF982D; }
+
+.color-heavy-sm {
+  color: #FF6C03; }
+
+.color-heavy-md {
+  color: #FF6C03; }
+
+.color-heavy-lg {
+  color: #FF1200; }
+
+.border-health {
+  color: #86D73F;
+  border: 4px solid #86D73F; }
+
+.border-thin {
+  color: #31BAF9;
+  border: 4px solid #31BAF9; }
+
+.border-heavy {
+  color: #FF982D;
+  border: 4px solid #FF982D; }
+
+.border-heavy-sm {
+  color: #FF6C03;
+  border: 4px solid #FF6C03; }
+
+.border-heavy-md {
+  color: #FF6C03;
+  border: 4px solid #FF6C03; }
+
+.border-heavy-lg {
+  color: #FF1200;
+  border: 4px solid #FF1200; }
+
+.header {
+  height: 300px;
+  background: #424242; }
+  .header .logo {
+    background-image: url(img/BMICLogo.png);
+    margin-right: 10px;
+    width: 117px;
+    height: 117px;
+    z-index: 999; }
+  .header .enterInfo {
+    width: 250px;
+    color: #FFD366;
+    font-size: 18px; }
+    .header .enterInfo label {
+      width: 100%;
+      margin-bottom: 0.5rem; }
+    .header .enterInfo input {
+      margin-bottom: 0.5rem;
+      width: 100%;
+      height: 40px;
+      padding: 12px 10px;
+      border-radius: 5px;
+      border: 2px solid #FFD366;
+      outline: none;
+      background: rgba(250, 250, 250, 0.8);
+      color: #424242;
+      font-size: 16px; }
+    .header .enterInfo .alert {
+      border-color: #ff5809; }
+  .header .btn {
+    outline: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: #FFD366;
+    color: #424242;
+    border: 1px solid #424242; }
+  .header .btn:hover {
+    background: #424242;
+    color: #FFD366;
+    border: 1px solid #FFD366; }
+  .header .result_area .result {
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: #424242;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 20px;
+    position: relative; }
+    .header .result_area .result p {
+      font-size: 12px;
+      padding: 0px;
+      margin: 0; }
+    .header .result_area .result a {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid #424242; }
+      .header .result_area .result a img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 50%; }
+    .header .result_area .result a:hover,
+    .header .result_area .result a:focus {
+      width: 24px;
+      height: 24px; }
+  .header .result_area .info {
+    display: block;
+    text-align: center;
+    margin-top: 22px;
+    font-size: 16px; }
+
+.hide {
+  display: none; }
+
+.content {
+  min-height: calc(100vh - (300px +110px)); }
+
+.record {
+  width: 80%; }
+  .record .recordBar {
+    color: #4a4a4a;
+    line-height: 70px;
+    height: 70px; }
+    .record .recordBar .alertbar {
+      width: 40px; }
+      .record .recordBar .alertbar a {
+        padding: 0 6px;
+        display: block;
+        width: 20px;
+        height: 100%;
+        background: #fff;
+        text-decoration: none;
+        color: #424242;
+        font-size: 15px; }
+      .record .recordBar .alertbar a:hover {
+        font-weight: bold;
+        color: red; }
+    .record .recordBar .status p, .record .recordBar .bmiRecord p, .record .recordBar .heightRecord p, .record .recordBar .weightRecord p {
+      display: inline;
+      font-size: 18px; }
+    .record .recordBar .status span, .record .recordBar .bmiRecord span, .record .recordBar .heightRecord span, .record .recordBar .weightRecord span {
+      padding-right: 5px;
+      font-size: 12px; }
+    .record .recordBar .timeRecord {
+      padding-right: 10px;
+      font-size: 12px; }
+
+footer {
+  height: 90px;
+  background: #FFD366;
+  margin-top: 20px;
+  padding: 10px; }
+  footer img {
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    height: 70px; }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="all.css">
+    
+    
+
+</head>
+<body>
+	<div class="header">
+		<div class="content py-5 d-flex justify-content-center align-items-center">
+			<div class="logo m3"></div>
+			<div class="enterInfo m3">
+				<label for="userHeight">身高(cm)</label>
+                <input type="number" name="height" id="userHeight" placeholder="請輸入身高">
+                <label for="userWeight">體重(kg)</label>
+                <input type="number" name="weight" id="userWeight" placeholder="請輸入體重">
+			</div>
+			<div class="button m-3">
+                <button class="btn">GO</button>
+                <div class="result_area">
+                </div>
+            </div>
+		</div>
+	</div>
+	<div class="content container ">
+        <h2 class="text-center py-4">BMI紀錄</h2>
+        <div class="record m-auto" id="record">
+           
+        </div>
+
+    </div>
+     <footer>
+        <img src="img/BMICLogo.png" alt="" style="z-index: 999">
+    </footer>
+
+    <script src="all.js"></script>
+</body>
+</html>
